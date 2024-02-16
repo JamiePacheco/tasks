@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/tasks/static/css/main.39f589df.css",
-    "main.js": "/tasks/static/js/main.9a48b2cd.js",
+    "main.js": "/tasks/static/js/main.700f1b8c.js",
     "static/js/787.4ef7427d.chunk.js": "/tasks/static/js/787.4ef7427d.chunk.js",
     "static/media/removed-background-duke-funny.png": "/tasks/static/media/removed-background-duke-funny.dc70ac2fb213a1d22495.png",
     "index.html": "/tasks/index.html",
     "main.39f589df.css.map": "/tasks/static/css/main.39f589df.css.map",
-    "main.9a48b2cd.js.map": "/tasks/static/js/main.9a48b2cd.js.map",
+    "main.700f1b8c.js.map": "/tasks/static/js/main.700f1b8c.js.map",
     "787.4ef7427d.chunk.js.map": "/tasks/static/js/787.4ef7427d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.39f589df.css",
-    "static/js/main.9a48b2cd.js"
+    "static/js/main.700f1b8c.js"
   ]
 }
