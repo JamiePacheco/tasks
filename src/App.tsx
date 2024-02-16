@@ -33,7 +33,7 @@ function App(): JSX.Element {
                 />
             </div>
             <div>
-                <h1> Top 3 Tech Mascots </h1>
+                <h1 style={{ backgroundColor: "red" }}> Top 3 Tech Mascots </h1>
                 <ol>
                     <li>Duke</li>
                     <li>Linux Penguin</li>
