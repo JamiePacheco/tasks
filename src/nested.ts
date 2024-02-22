@@ -6,7 +6,9 @@ import { Question, QuestionType } from "./interfaces/question";
  * that are `published`.
  */
 export function getPublishedQuestions(questions: Question[]): Question[] {
-    return [];
+    return questions.filter((q: Question): boolean => {
+        return q.published;
+    });
 }
 
 /**
@@ -15,7 +17,9 @@ export function getPublishedQuestions(questions: Question[]): Question[] {
  * `expected`, and an empty array for its `options`.
  */
 export function getNonEmptyQuestions(questions: Question[]): Question[] {
-    return [];
+    return questions.filter((q: Question): boolean => {
+        return q.body !== "" || q.expected !== "" || q.options.length !== 0;
+    });
 }
 
 /***
@@ -26,7 +30,10 @@ export function findQuestion(
     questions: Question[],
     id: number
 ): Question | null {
-    return null;
+    const filtered = questions.filter((q: Question): boolean => {
+        return q.id === id;
+    })[0];
+    return filtered !== undefined ? filtered : null;
 }
 
 /**
@@ -34,7 +41,7 @@ export function findQuestion(
  * with the given `id`.
  */
 export function removeQuestion(questions: Question[], id: number): Question[] {
-    return [];
+    return questions.filter((q: Question): boolean => q.id !== id);
 }
 
 /***
@@ -42,21 +49,30 @@ export function removeQuestion(questions: Question[], id: number): Question[] {
  * questions, as an array.
  */
 export function getNames(questions: Question[]): string[] {
-    return [];
+    return questions.map((q: Question): string => q.name);
 }
 
 /***
  * Consumes an array of questions and returns the sum total of all their points added together.
  */
 export function sumPoints(questions: Question[]): number {
-    return 0;
+    return questions
+        .map((q: Question): number => {
+            return q.points;
+        })
+        .reduce((total: number, points: number): number => {
+            total += points;
+            return total;
+        });
 }
 
 /***
  * Consumes an array of questions and returns the sum total of the PUBLISHED questions.
  */
 export function sumPublishedPoints(questions: Question[]): number {
-    return 0;
+    return questions.filter((q: Question): boolean => {
+        return q.published;
+    }).length;
 }
 
 /***
