@@ -123,7 +123,7 @@ export function makeAnswers(questions: Question[]): Answer[] {
             text: "",
             submitted: false,
             correct: false
-        }
+        };
     });
 }
 
