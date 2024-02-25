@@ -1,7 +1,7 @@
 /* eslint-disable indent */
 import { Answer } from "./interfaces/answer";
 import { Question, QuestionType } from "./interfaces/question";
-import { makeBlankQuestion } from "./objects";
+import { makeBlankQuestion, duplicateQuestion } from "./objects";
 
 /**
  * Consumes an array of questions and returns a new array with only the questions
@@ -227,6 +227,15 @@ export function editOption(
     targetOptionIndex: number,
     newOption: string
 ): Question[] {
+    const insertNewOption = (
+        arr: string[],
+        index: number,
+        option: string
+    ): string[] => {
+        const arr_copy = [...arr];
+        arr_copy.splice(index, 1, option);
+        return arr_copy;
+    };
     return questions.map((q: Question): Question => {
         if (q.id === targetId) {
             return {
@@ -234,9 +243,9 @@ export function editOption(
                 options:
                     targetOptionIndex === -1
                         ? [...q.options, newOption]
-                        : [...q.options].toSpliced(
+                        : insertNewOption(
+                              q.options,
                               targetOptionIndex,
-                              0,
                               newOption
                           )
             };
@@ -260,12 +269,18 @@ export function duplicateQuestionInArray(
         .map((q: Question): number => {
             return q.id;
         })
-        .findIndex((id: number): boolean => {
-            return id === targetId;
-        });
+        .reduce((targetIndex: number, id: number, index: number): number => {
+            if (id === targetId) {
+                targetIndex = index;
+            }
+            return targetIndex;
+        }, 0);
 
-    return [...questions].splice(index + 1, 0, {
-        ...questions[index],
-        id: newId
-    });
+    const duplicatedArr = [...questions];
+    duplicatedArr.splice(
+        index + 1,
+        0,
+        duplicateQuestion(newId, questions[index])
+    );
+    return duplicatedArr;
 }
