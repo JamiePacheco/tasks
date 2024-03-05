@@ -22,7 +22,7 @@ function Halver({
 }
 
 export function DoubleHalf(): JSX.Element {
-    const [value, setValue] = useState<number>(1);
+    const [value, setValue] = useState<number>(10);
 
     return (
         <div>
