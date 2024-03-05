@@ -15,17 +15,13 @@ export function ChooseTeam(): JSX.Element {
     const [team, setTeam] = useState<string[]>([]);
 
     function chooseMember() {
-        /*
-        if (!team.includes(newMember)) {
-            team.push(newMember);
+        if (!team.includes()) {
+            setTeam([...team, newMember]);
         }
-        */
     }
 
     function clearTeam() {
-        /*
-        team = [];
-        */
+        setTeam([]);
     }
 
     return (
@@ -35,8 +31,7 @@ export function ChooseTeam(): JSX.Element {
                 <Col>
                     {allOptions.map((option: string) => (
                         <div key={option} style={{ marginBottom: "4px" }}>
-                            Add{" "}
-                            <Button onClick={chooseMember} size="sm">
+                            <Button onClick={(event) => chooseMember(event.target.value)} size="sm">
                                 {option}
                             </Button>
                         </div>

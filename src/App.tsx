@@ -9,6 +9,7 @@ import { Counter } from "./components/Counter";
 import { ColoredBox } from "./bad-components/ColoredBox";
 import { ShoveBox } from "./bad-components/ShoveBox";
 import { ChooseTeam } from "./bad-components/ChooseTeam";
+import { DoubleHalf } from "./bad-components/DoubleHalf";
 
 function App(): JSX.Element {
     return (
@@ -17,7 +18,7 @@ function App(): JSX.Element {
                 UD CISC275 with React Hooks and TypeScript
             </header>
             <hr></hr>
-            {/* <DoubleHalf></DoubleHalf> */}
+            <DoubleHalf></DoubleHalf>
             <hr></hr>
             <ChooseTeam></ChooseTeam>
             <hr></hr>
