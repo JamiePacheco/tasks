@@ -16,45 +16,2841 @@ PASS src/arrays.test.ts
 PASS src/nested.test.ts
 PASS src/components/StartAttempt.test.tsx
 PASS src/components/TwoDice.test.tsx
-PASS src/bad-components/ChooseTeam.test.tsx
+PASS src/form-components/MultipleChoiceQuestion.test.tsx
 PASS src/functions.test.ts
+PASS src/bad-components/ChooseTeam.test.tsx
 PASS src/bad-components/DoubleHalf.test.tsx
 PASS src/components/ChangeType.test.tsx
+PASS src/form-components/CheckAnswer.test.tsx
+  ● Console
+
+    console.log
+
+
+      at updateCurrentAnswer (src/form-components/CheckAnswer.tsx:13:17)
+
+    console.log
+      4
+
+      at updateCurrentAnswer (src/form-components/CheckAnswer.tsx:13:17)
+
+    console.log
+
+
+      at updateCurrentAnswer (src/form-components/CheckAnswer.tsx:13:17)
+
+    console.log
+      4
+
+      at updateCurrentAnswer (src/form-components/CheckAnswer.tsx:13:17)
+
+    console.log
+
+
+      at updateCurrentAnswer (src/form-components/CheckAnswer.tsx:13:17)
+
+    console.log
+      H
+
+      at updateCurrentAnswer (src/form-components/CheckAnswer.tsx:13:17)
+
+    console.log
+      He
+
+      at updateCurrentAnswer (src/form-components/CheckAnswer.tsx:13:17)
+
+    console.log
+      Hel
+
+      at updateCurrentAnswer (src/form-components/CheckAnswer.tsx:13:17)
+
+    console.log
+      Hell
+
+      at updateCurrentAnswer (src/form-components/CheckAnswer.tsx:13:17)
+
+    console.log
+
+
+      at updateCurrentAnswer (src/form-components/CheckAnswer.tsx:13:17)
+
+    console.log
+      4
+
+      at updateCurrentAnswer (src/form-components/CheckAnswer.tsx:13:17)
+
+PASS src/form-components/EditMode.test.tsx
 PASS src/components/CycleHoliday.test.tsx
+PASS src/form-components/GiveAttempts.test.tsx
 PASS src/components/Counter.test.tsx
+PASS src/form-components/ChangeColor.test.tsx
+  ● Console
+
+    console.log
+      [
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'Black',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'Black',
+            onChange: [Function: updateColor],
+            label: 'Black',
+            value: 'Black',
+            checked: true,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 2,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: null,
+            sibling: null,
+            index: 0,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: null,
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 2,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: null,
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 4,
+            _debugSource: [Object],
+            _debugOwner: null,
+            _debugNeedsRemount: false,
+            _debugHookTypes: null
+          },
+          _store: {}
+        },
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'Brown',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'Brown',
+            onChange: [Function: updateColor],
+            label: 'Brown',
+            value: 'Brown',
+            checked: false,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 2,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: null,
+            sibling: null,
+            index: 0,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: null,
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 2,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: null,
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 4,
+            _debugSource: [Object],
+            _debugOwner: null,
+            _debugNeedsRemount: false,
+            _debugHookTypes: null
+          },
+          _store: {}
+        },
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'DarkGreen',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'DarkGreen',
+            onChange: [Function: updateColor],
+            label: 'DarkGreen',
+            value: 'DarkGreen',
+            checked: false,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 2,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: null,
+            sibling: null,
+            index: 0,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: null,
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 2,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: null,
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 4,
+            _debugSource: [Object],
+            _debugOwner: null,
+            _debugNeedsRemount: false,
+            _debugHookTypes: null
+          },
+          _store: {}
+        },
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'Beige',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'Beige',
+            onChange: [Function: updateColor],
+            label: 'Beige',
+            value: 'Beige',
+            checked: false,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 2,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: null,
+            sibling: null,
+            index: 0,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: null,
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 2,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: null,
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 4,
+            _debugSource: [Object],
+            _debugOwner: null,
+            _debugNeedsRemount: false,
+            _debugHookTypes: null
+          },
+          _store: {}
+        },
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'Blue',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'Blue',
+            onChange: [Function: updateColor],
+            label: 'Blue',
+            value: 'Blue',
+            checked: false,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 2,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: null,
+            sibling: null,
+            index: 0,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: null,
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 2,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: null,
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 4,
+            _debugSource: [Object],
+            _debugOwner: null,
+            _debugNeedsRemount: false,
+            _debugHookTypes: null
+          },
+          _store: {}
+        },
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'DarkGrey',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'DarkGrey',
+            onChange: [Function: updateColor],
+            label: 'DarkGrey',
+            value: 'DarkGrey',
+            checked: false,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 2,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: null,
+            sibling: null,
+            index: 0,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: null,
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 2,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: null,
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 4,
+            _debugSource: [Object],
+            _debugOwner: null,
+            _debugNeedsRemount: false,
+            _debugHookTypes: null
+          },
+          _store: {}
+        },
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'LightGrey',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'LightGrey',
+            onChange: [Function: updateColor],
+            label: 'LightGrey',
+            value: 'LightGrey',
+            checked: false,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 2,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: null,
+            sibling: null,
+            index: 0,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: null,
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 2,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: null,
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 4,
+            _debugSource: [Object],
+            _debugOwner: null,
+            _debugNeedsRemount: false,
+            _debugHookTypes: null
+          },
+          _store: {}
+        },
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'White',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'White',
+            onChange: [Function: updateColor],
+            label: 'White',
+            value: 'White',
+            checked: false,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 2,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: null,
+            sibling: null,
+            index: 0,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: null,
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 2,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: null,
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 4,
+            _debugSource: [Object],
+            _debugOwner: null,
+            _debugNeedsRemount: false,
+            _debugHookTypes: null
+          },
+          _store: {}
+        }
+      ]
+
+      at ChangeColor (src/form-components/ChangeColor.tsx:38:13)
+
+    console.log
+      [
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'Black',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'Black',
+            onChange: [Function: updateColor],
+            label: 'Black',
+            value: 'Black',
+            checked: true,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 2,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: null,
+            sibling: null,
+            index: 0,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: null,
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 2,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: null,
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 138,
+            _debugSource: [Object],
+            _debugOwner: null,
+            _debugNeedsRemount: false,
+            _debugHookTypes: null
+          },
+          _store: {}
+        },
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'Brown',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'Brown',
+            onChange: [Function: updateColor],
+            label: 'Brown',
+            value: 'Brown',
+            checked: false,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 2,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: null,
+            sibling: null,
+            index: 0,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: null,
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 2,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: null,
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 138,
+            _debugSource: [Object],
+            _debugOwner: null,
+            _debugNeedsRemount: false,
+            _debugHookTypes: null
+          },
+          _store: {}
+        },
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'DarkGreen',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'DarkGreen',
+            onChange: [Function: updateColor],
+            label: 'DarkGreen',
+            value: 'DarkGreen',
+            checked: false,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 2,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: null,
+            sibling: null,
+            index: 0,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: null,
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 2,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: null,
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 138,
+            _debugSource: [Object],
+            _debugOwner: null,
+            _debugNeedsRemount: false,
+            _debugHookTypes: null
+          },
+          _store: {}
+        },
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'Beige',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'Beige',
+            onChange: [Function: updateColor],
+            label: 'Beige',
+            value: 'Beige',
+            checked: false,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 2,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: null,
+            sibling: null,
+            index: 0,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: null,
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 2,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: null,
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 138,
+            _debugSource: [Object],
+            _debugOwner: null,
+            _debugNeedsRemount: false,
+            _debugHookTypes: null
+          },
+          _store: {}
+        },
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'Blue',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'Blue',
+            onChange: [Function: updateColor],
+            label: 'Blue',
+            value: 'Blue',
+            checked: false,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 2,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: null,
+            sibling: null,
+            index: 0,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: null,
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 2,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: null,
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 138,
+            _debugSource: [Object],
+            _debugOwner: null,
+            _debugNeedsRemount: false,
+            _debugHookTypes: null
+          },
+          _store: {}
+        },
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'DarkGrey',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'DarkGrey',
+            onChange: [Function: updateColor],
+            label: 'DarkGrey',
+            value: 'DarkGrey',
+            checked: false,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 2,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: null,
+            sibling: null,
+            index: 0,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: null,
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 2,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: null,
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 138,
+            _debugSource: [Object],
+            _debugOwner: null,
+            _debugNeedsRemount: false,
+            _debugHookTypes: null
+          },
+          _store: {}
+        },
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'LightGrey',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'LightGrey',
+            onChange: [Function: updateColor],
+            label: 'LightGrey',
+            value: 'LightGrey',
+            checked: false,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 2,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: null,
+            sibling: null,
+            index: 0,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: null,
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 2,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: null,
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 138,
+            _debugSource: [Object],
+            _debugOwner: null,
+            _debugNeedsRemount: false,
+            _debugHookTypes: null
+          },
+          _store: {}
+        },
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'White',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'White',
+            onChange: [Function: updateColor],
+            label: 'White',
+            value: 'White',
+            checked: false,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 2,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: null,
+            sibling: null,
+            index: 0,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: null,
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 2,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: null,
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 138,
+            _debugSource: [Object],
+            _debugOwner: null,
+            _debugNeedsRemount: false,
+            _debugHookTypes: null
+          },
+          _store: {}
+        }
+      ]
+
+      at ChangeColor (src/form-components/ChangeColor.tsx:38:13)
+
+    console.log
+      [
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'Black',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'Black',
+            onChange: [Function: updateColor],
+            label: 'Black',
+            value: 'Black',
+            checked: false,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 0,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: [FiberNode],
+            sibling: null,
+            index: 0,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: {},
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 0,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: [FiberNode],
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 138,
+            _debugSource: [Object],
+            _debugOwner: null,
+            _debugNeedsRemount: false,
+            _debugHookTypes: [Array]
+          },
+          _store: {}
+        },
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'Brown',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'Brown',
+            onChange: [Function: updateColor],
+            label: 'Brown',
+            value: 'Brown',
+            checked: false,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 0,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: [FiberNode],
+            sibling: null,
+            index: 0,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: {},
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 0,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: [FiberNode],
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 138,
+            _debugSource: [Object],
+            _debugOwner: null,
+            _debugNeedsRemount: false,
+            _debugHookTypes: [Array]
+          },
+          _store: {}
+        },
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'DarkGreen',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'DarkGreen',
+            onChange: [Function: updateColor],
+            label: 'DarkGreen',
+            value: 'DarkGreen',
+            checked: true,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 0,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: [FiberNode],
+            sibling: null,
+            index: 0,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: {},
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 0,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: [FiberNode],
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 138,
+            _debugSource: [Object],
+            _debugOwner: null,
+            _debugNeedsRemount: false,
+            _debugHookTypes: [Array]
+          },
+          _store: {}
+        },
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'Beige',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'Beige',
+            onChange: [Function: updateColor],
+            label: 'Beige',
+            value: 'Beige',
+            checked: false,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 0,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: [FiberNode],
+            sibling: null,
+            index: 0,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: {},
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 0,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: [FiberNode],
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 138,
+            _debugSource: [Object],
+            _debugOwner: null,
+            _debugNeedsRemount: false,
+            _debugHookTypes: [Array]
+          },
+          _store: {}
+        },
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'Blue',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'Blue',
+            onChange: [Function: updateColor],
+            label: 'Blue',
+            value: 'Blue',
+            checked: false,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 0,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: [FiberNode],
+            sibling: null,
+            index: 0,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: {},
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 0,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: [FiberNode],
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 138,
+            _debugSource: [Object],
+            _debugOwner: null,
+            _debugNeedsRemount: false,
+            _debugHookTypes: [Array]
+          },
+          _store: {}
+        },
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'DarkGrey',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'DarkGrey',
+            onChange: [Function: updateColor],
+            label: 'DarkGrey',
+            value: 'DarkGrey',
+            checked: false,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 0,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: [FiberNode],
+            sibling: null,
+            index: 0,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: {},
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 0,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: [FiberNode],
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 138,
+            _debugSource: [Object],
+            _debugOwner: null,
+            _debugNeedsRemount: false,
+            _debugHookTypes: [Array]
+          },
+          _store: {}
+        },
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'LightGrey',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'LightGrey',
+            onChange: [Function: updateColor],
+            label: 'LightGrey',
+            value: 'LightGrey',
+            checked: false,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 0,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: [FiberNode],
+            sibling: null,
+            index: 0,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: {},
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 0,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: [FiberNode],
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 138,
+            _debugSource: [Object],
+            _debugOwner: null,
+            _debugNeedsRemount: false,
+            _debugHookTypes: [Array]
+          },
+          _store: {}
+        },
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'White',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'White',
+            onChange: [Function: updateColor],
+            label: 'White',
+            value: 'White',
+            checked: false,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 0,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: [FiberNode],
+            sibling: null,
+            index: 0,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: {},
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 0,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: [FiberNode],
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 138,
+            _debugSource: [Object],
+            _debugOwner: null,
+            _debugNeedsRemount: false,
+            _debugHookTypes: [Array]
+          },
+          _store: {}
+        }
+      ]
+
+      at ChangeColor (src/form-components/ChangeColor.tsx:38:13)
+
+    console.log
+      [
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'Black',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'Black',
+            onChange: [Function: updateColor],
+            label: 'Black',
+            value: 'Black',
+            checked: false,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 0,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: [FiberNode],
+            sibling: null,
+            index: 0,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: {},
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 0,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: [FiberNode],
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 138,
+            _debugSource: [Object],
+            _debugOwner: null,
+            _debugNeedsRemount: false,
+            _debugHookTypes: [Array]
+          },
+          _store: {}
+        },
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'Brown',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'Brown',
+            onChange: [Function: updateColor],
+            label: 'Brown',
+            value: 'Brown',
+            checked: false,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 0,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: [FiberNode],
+            sibling: null,
+            index: 0,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: {},
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 0,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: [FiberNode],
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 138,
+            _debugSource: [Object],
+            _debugOwner: null,
+            _debugNeedsRemount: false,
+            _debugHookTypes: [Array]
+          },
+          _store: {}
+        },
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'DarkGreen',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'DarkGreen',
+            onChange: [Function: updateColor],
+            label: 'DarkGreen',
+            value: 'DarkGreen',
+            checked: false,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 0,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: [FiberNode],
+            sibling: null,
+            index: 0,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: {},
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 0,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: [FiberNode],
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 138,
+            _debugSource: [Object],
+            _debugOwner: null,
+            _debugNeedsRemount: false,
+            _debugHookTypes: [Array]
+          },
+          _store: {}
+        },
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'Beige',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'Beige',
+            onChange: [Function: updateColor],
+            label: 'Beige',
+            value: 'Beige',
+            checked: false,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 0,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: [FiberNode],
+            sibling: null,
+            index: 0,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: {},
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 0,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: [FiberNode],
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 138,
+            _debugSource: [Object],
+            _debugOwner: null,
+            _debugNeedsRemount: false,
+            _debugHookTypes: [Array]
+          },
+          _store: {}
+        },
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'Blue',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'Blue',
+            onChange: [Function: updateColor],
+            label: 'Blue',
+            value: 'Blue',
+            checked: false,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 0,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: [FiberNode],
+            sibling: null,
+            index: 0,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: {},
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 0,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: [FiberNode],
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 138,
+            _debugSource: [Object],
+            _debugOwner: null,
+            _debugNeedsRemount: false,
+            _debugHookTypes: [Array]
+          },
+          _store: {}
+        },
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'DarkGrey',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'DarkGrey',
+            onChange: [Function: updateColor],
+            label: 'DarkGrey',
+            value: 'DarkGrey',
+            checked: false,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 0,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: [FiberNode],
+            sibling: null,
+            index: 0,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: {},
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 0,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: [FiberNode],
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 138,
+            _debugSource: [Object],
+            _debugOwner: null,
+            _debugNeedsRemount: false,
+            _debugHookTypes: [Array]
+          },
+          _store: {}
+        },
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'LightGrey',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'LightGrey',
+            onChange: [Function: updateColor],
+            label: 'LightGrey',
+            value: 'LightGrey',
+            checked: false,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 0,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: [FiberNode],
+            sibling: null,
+            index: 0,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: {},
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 0,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: [FiberNode],
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 138,
+            _debugSource: [Object],
+            _debugOwner: null,
+            _debugNeedsRemount: false,
+            _debugHookTypes: [Array]
+          },
+          _store: {}
+        },
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'White',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'White',
+            onChange: [Function: updateColor],
+            label: 'White',
+            value: 'White',
+            checked: true,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 0,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: [FiberNode],
+            sibling: null,
+            index: 0,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: {},
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 0,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: [FiberNode],
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 138,
+            _debugSource: [Object],
+            _debugOwner: null,
+            _debugNeedsRemount: false,
+            _debugHookTypes: [Array]
+          },
+          _store: {}
+        }
+      ]
+
+      at ChangeColor (src/form-components/ChangeColor.tsx:38:13)
+
+    console.log
+      [
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'Black',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'Black',
+            onChange: [Function: updateColor],
+            label: 'Black',
+            value: 'Black',
+            checked: true,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 0,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: [FiberNode],
+            sibling: null,
+            index: 0,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: {},
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 0,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: [FiberNode],
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 138,
+            _debugSource: [Object],
+            _debugOwner: null,
+            _debugNeedsRemount: false,
+            _debugHookTypes: [Array]
+          },
+          _store: {}
+        },
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'Brown',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'Brown',
+            onChange: [Function: updateColor],
+            label: 'Brown',
+            value: 'Brown',
+            checked: false,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 0,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: [FiberNode],
+            sibling: null,
+            index: 0,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: {},
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 0,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: [FiberNode],
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 138,
+            _debugSource: [Object],
+            _debugOwner: null,
+            _debugNeedsRemount: false,
+            _debugHookTypes: [Array]
+          },
+          _store: {}
+        },
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'DarkGreen',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'DarkGreen',
+            onChange: [Function: updateColor],
+            label: 'DarkGreen',
+            value: 'DarkGreen',
+            checked: false,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 0,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: [FiberNode],
+            sibling: null,
+            index: 0,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: {},
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 0,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: [FiberNode],
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 138,
+            _debugSource: [Object],
+            _debugOwner: null,
+            _debugNeedsRemount: false,
+            _debugHookTypes: [Array]
+          },
+          _store: {}
+        },
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'Beige',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'Beige',
+            onChange: [Function: updateColor],
+            label: 'Beige',
+            value: 'Beige',
+            checked: false,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 0,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: [FiberNode],
+            sibling: null,
+            index: 0,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: {},
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 0,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: [FiberNode],
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 138,
+            _debugSource: [Object],
+            _debugOwner: null,
+            _debugNeedsRemount: false,
+            _debugHookTypes: [Array]
+          },
+          _store: {}
+        },
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'Blue',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'Blue',
+            onChange: [Function: updateColor],
+            label: 'Blue',
+            value: 'Blue',
+            checked: false,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 0,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: [FiberNode],
+            sibling: null,
+            index: 0,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: {},
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 0,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: [FiberNode],
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 138,
+            _debugSource: [Object],
+            _debugOwner: null,
+            _debugNeedsRemount: false,
+            _debugHookTypes: [Array]
+          },
+          _store: {}
+        },
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'DarkGrey',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'DarkGrey',
+            onChange: [Function: updateColor],
+            label: 'DarkGrey',
+            value: 'DarkGrey',
+            checked: false,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 0,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: [FiberNode],
+            sibling: null,
+            index: 0,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: {},
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 0,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: [FiberNode],
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 138,
+            _debugSource: [Object],
+            _debugOwner: null,
+            _debugNeedsRemount: false,
+            _debugHookTypes: [Array]
+          },
+          _store: {}
+        },
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'LightGrey',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'LightGrey',
+            onChange: [Function: updateColor],
+            label: 'LightGrey',
+            value: 'LightGrey',
+            checked: false,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 0,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: [FiberNode],
+            sibling: null,
+            index: 0,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: {},
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 0,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: [FiberNode],
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 138,
+            _debugSource: [Object],
+            _debugOwner: null,
+            _debugNeedsRemount: false,
+            _debugHookTypes: [Array]
+          },
+          _store: {}
+        },
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'White',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'White',
+            onChange: [Function: updateColor],
+            label: 'White',
+            value: 'White',
+            checked: false,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 0,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: [FiberNode],
+            sibling: null,
+            index: 0,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: {},
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 0,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: [FiberNode],
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 138,
+            _debugSource: [Object],
+            _debugOwner: null,
+            _debugNeedsRemount: false,
+            _debugHookTypes: [Array]
+          },
+          _store: {}
+        }
+      ]
+
+      at ChangeColor (src/form-components/ChangeColor.tsx:38:13)
+
 PASS src/components/RevealAnswer.test.tsx
 PASS src/bad-components/ColoredBox.test.tsx
 PASS src/bad-components/ShoveBox.test.tsx
 PASS src/App.test.tsx
---------------------|---------|----------|---------|---------|-------------------
-File                | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
---------------------|---------|----------|---------|---------|-------------------
-All files           |     100 |    98.71 |     100 |     100 |                   
- src                |     100 |      100 |     100 |     100 |                   
-  App.tsx           |     100 |      100 |     100 |     100 |                   
-  arrays.ts         |     100 |      100 |     100 |     100 |                   
-  functions.ts      |     100 |      100 |     100 |     100 |                   
-  nested.ts         |     100 |      100 |     100 |     100 |                   
-  objects.ts        |     100 |      100 |     100 |     100 |                   
- src/bad-components |     100 |       50 |     100 |     100 |                   
-  ChooseTeam.tsx    |     100 |       50 |     100 |     100 | 18                
-  ColoredBox.tsx    |     100 |      100 |     100 |     100 |                   
-  DoubleHalf.tsx    |     100 |      100 |     100 |     100 |                   
-  ShoveBox.tsx      |     100 |      100 |     100 |     100 |                   
- src/components     |     100 |      100 |     100 |     100 |                   
-  ChangeType.tsx    |     100 |      100 |     100 |     100 |                   
-  Counter.tsx       |     100 |      100 |     100 |     100 |                   
-  CycleHoliday.tsx  |     100 |      100 |     100 |     100 |                   
-  RevealAnswer.tsx  |     100 |      100 |     100 |     100 |                   
-  StartAttempt.tsx  |     100 |      100 |     100 |     100 |                   
-  TwoDice.tsx       |     100 |      100 |     100 |     100 |                   
- src/interfaces     |       0 |        0 |       0 |       0 |                   
-  answer.ts         |       0 |        0 |       0 |       0 |                   
-  question.ts       |       0 |        0 |       0 |       0 |                   
---------------------|---------|----------|---------|---------|-------------------
+  ● Console
 
-Test Suites: 15 passed, 15 total
-Tests:       110 passed, 110 total
+    console.log
+      [
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'Black',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'Black',
+            onChange: [Function: updateColor],
+            label: 'Black',
+            value: 'Black',
+            checked: true,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 2,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: null,
+            sibling: [FiberNode],
+            index: 8,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: null,
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 0,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: null,
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 16,
+            _debugSource: [Object],
+            _debugOwner: [FiberNode],
+            _debugNeedsRemount: false,
+            _debugHookTypes: null
+          },
+          _store: {}
+        },
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'Brown',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'Brown',
+            onChange: [Function: updateColor],
+            label: 'Brown',
+            value: 'Brown',
+            checked: false,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 2,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: null,
+            sibling: [FiberNode],
+            index: 8,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: null,
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 0,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: null,
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 16,
+            _debugSource: [Object],
+            _debugOwner: [FiberNode],
+            _debugNeedsRemount: false,
+            _debugHookTypes: null
+          },
+          _store: {}
+        },
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'DarkGreen',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'DarkGreen',
+            onChange: [Function: updateColor],
+            label: 'DarkGreen',
+            value: 'DarkGreen',
+            checked: false,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 2,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: null,
+            sibling: [FiberNode],
+            index: 8,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: null,
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 0,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: null,
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 16,
+            _debugSource: [Object],
+            _debugOwner: [FiberNode],
+            _debugNeedsRemount: false,
+            _debugHookTypes: null
+          },
+          _store: {}
+        },
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'Beige',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'Beige',
+            onChange: [Function: updateColor],
+            label: 'Beige',
+            value: 'Beige',
+            checked: false,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 2,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: null,
+            sibling: [FiberNode],
+            index: 8,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: null,
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 0,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: null,
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 16,
+            _debugSource: [Object],
+            _debugOwner: [FiberNode],
+            _debugNeedsRemount: false,
+            _debugHookTypes: null
+          },
+          _store: {}
+        },
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'Blue',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'Blue',
+            onChange: [Function: updateColor],
+            label: 'Blue',
+            value: 'Blue',
+            checked: false,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 2,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: null,
+            sibling: [FiberNode],
+            index: 8,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: null,
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 0,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: null,
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 16,
+            _debugSource: [Object],
+            _debugOwner: [FiberNode],
+            _debugNeedsRemount: false,
+            _debugHookTypes: null
+          },
+          _store: {}
+        },
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'DarkGrey',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'DarkGrey',
+            onChange: [Function: updateColor],
+            label: 'DarkGrey',
+            value: 'DarkGrey',
+            checked: false,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 2,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: null,
+            sibling: [FiberNode],
+            index: 8,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: null,
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 0,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: null,
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 16,
+            _debugSource: [Object],
+            _debugOwner: [FiberNode],
+            _debugNeedsRemount: false,
+            _debugHookTypes: null
+          },
+          _store: {}
+        },
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'LightGrey',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'LightGrey',
+            onChange: [Function: updateColor],
+            label: 'LightGrey',
+            value: 'LightGrey',
+            checked: false,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 2,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: null,
+            sibling: [FiberNode],
+            index: 8,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: null,
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 0,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: null,
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 16,
+            _debugSource: [Object],
+            _debugOwner: [FiberNode],
+            _debugNeedsRemount: false,
+            _debugHookTypes: null
+          },
+          _store: {}
+        },
+        {
+          '$$typeof': Symbol(react.element),
+          type: {
+            '$$typeof': Symbol(react.forward_ref),
+            render: [Function],
+            Input: [Object],
+            Label: [Object]
+          },
+          key: 'White',
+          ref: null,
+          props: {
+            inline: true,
+            type: 'radio',
+            name: 'White',
+            onChange: [Function: updateColor],
+            label: 'White',
+            value: 'White',
+            checked: false,
+            style: [Object]
+          },
+          _owner: FiberNode {
+            tag: 2,
+            key: null,
+            elementType: [Function: ChangeColor],
+            type: [Function: ChangeColor],
+            stateNode: null,
+            return: [FiberNode],
+            child: null,
+            sibling: [FiberNode],
+            index: 8,
+            ref: null,
+            pendingProps: {},
+            memoizedProps: null,
+            updateQueue: null,
+            memoizedState: [Object],
+            dependencies: null,
+            mode: 0,
+            flags: 0,
+            nextEffect: null,
+            firstEffect: null,
+            lastEffect: null,
+            lanes: 0,
+            childLanes: 0,
+            alternate: null,
+            actualDuration: 0,
+            actualStartTime: -1,
+            selfBaseDuration: 0,
+            treeBaseDuration: 0,
+            _debugID: 16,
+            _debugSource: [Object],
+            _debugOwner: [FiberNode],
+            _debugNeedsRemount: false,
+            _debugHookTypes: null
+          },
+          _store: {}
+        }
+      ]
+
+      at ChangeColor (src/form-components/ChangeColor.tsx:38:13)
+
+-----------------------------|---------|----------|---------|---------|-------------------
+File                         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-----------------------------|---------|----------|---------|---------|-------------------
+All files                    |     100 |    98.91 |     100 |     100 |                   
+ src                         |     100 |      100 |     100 |     100 |                   
+  App.tsx                    |     100 |      100 |     100 |     100 |                   
+  arrays.ts                  |     100 |      100 |     100 |     100 |                   
+  functions.ts               |     100 |      100 |     100 |     100 |                   
+  nested.ts                  |     100 |      100 |     100 |     100 |                   
+  objects.ts                 |     100 |      100 |     100 |     100 |                   
+ src/bad-components          |     100 |       50 |     100 |     100 |                   
+  ChooseTeam.tsx             |     100 |       50 |     100 |     100 | 18                
+  ColoredBox.tsx             |     100 |      100 |     100 |     100 |                   
+  DoubleHalf.tsx             |     100 |      100 |     100 |     100 |                   
+  ShoveBox.tsx               |     100 |      100 |     100 |     100 |                   
+ src/components              |     100 |      100 |     100 |     100 |                   
+  ChangeType.tsx             |     100 |      100 |     100 |     100 |                   
+  Counter.tsx                |     100 |      100 |     100 |     100 |                   
+  CycleHoliday.tsx           |     100 |      100 |     100 |     100 |                   
+  RevealAnswer.tsx           |     100 |      100 |     100 |     100 |                   
+  StartAttempt.tsx           |     100 |      100 |     100 |     100 |                   
+  TwoDice.tsx                |     100 |      100 |     100 |     100 |                   
+ src/form-components         |     100 |      100 |     100 |     100 |                   
+  ChangeColor.tsx            |     100 |      100 |     100 |     100 |                   
+  CheckAnswer.tsx            |     100 |      100 |     100 |     100 |                   
+  EditMode.tsx               |     100 |      100 |     100 |     100 |                   
+  GiveAttempts.tsx           |     100 |      100 |     100 |     100 |                   
+  MultipleChoiceQuestion.tsx |     100 |      100 |     100 |     100 |                   
+ src/interfaces              |       0 |        0 |       0 |       0 |                   
+  answer.ts                  |       0 |        0 |       0 |       0 |                   
+  question.ts                |       0 |        0 |       0 |       0 |                   
+-----------------------------|---------|----------|---------|---------|-------------------
+
+Test Suites: 20 passed, 20 total
+Tests:       134 passed, 134 total
 Snapshots:   0 total
-Time:        5.766 s
+Time:        7.47 s
 Ran all test suites.
